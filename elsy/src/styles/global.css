@@ -1,0 +1,18 @@
+body{
+    background: rgb(53,7,238);
+background: linear-gradient(90deg, rgba(53,7,238,1) 0%, rgba(29,210,253,1) 50%, rgba(69,134,252,1) 100%);
+}
+
+.box{
+    height: 190px;
+    padding: 8px;
+    text-align: center;
+
+}
+.box:nth-child(odd){
+    background-color:#cccccc;
+    
+}
+.box:nth-child(even){
+    background-color:#5d6063;
+}
